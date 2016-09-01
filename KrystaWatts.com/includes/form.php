@@ -1,3 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Document Settings -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons.ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons.ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons.ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons.ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons.ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons.ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons.ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons.ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons.ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicons.ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons.ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons.ico/favicon-16x16.png">
+<link rel="manifest" href="assets/images/favicons.ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="assets/images/favicons.ico/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+		<!-- Page Title -->
+		<title>Krysta Watts&mdash;Contact</title>
+		<!-- Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css'>
+		<!-- Styles -->
+		<link rel="stylesheet" href="/assets/css/bootstrap.css">
+		<link rel="stylesheet" href="/assets/css/font-awesome.css">
+		<link rel="stylesheet" href="/assets/css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<header>
+					<!--<div class="logo">
+						<a href="index.html">
+						<img src="http://placehold.it/95x20" alt="">
+						</a>
+					</div>-->
+					<div class="mobile-menu">
+						<span class="line"></span>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="index.html">About</a></li>
+							<li><a href="myportfolio.html">Portfolio</a>
+							<!--<li><a href="journal.html">Journal</a></li>-->
+							<li class="active"><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</header>
+				<div class="page-title">
+				<!--	<div class="row">
+						<div class="col-md-9 col-xs-12">
+							<h1><b>Get in touch with me</b><br>I'm interested in hearing about new opportunities, projects, and partnerships.</h1>
+						</div>
+					</div> -->
+				</div>
+				<div class="contact">
+					<div class="row">
+						<div class="col-md-9">
+
+
+
+
 <?php
 if(isset($_POST['email'])) {
 
@@ -74,3 +142,11 @@ Thank you. Your message has been sent.
 header('Refresh: 3;url=../contact.html');
 }
 ?>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
